@@ -9,7 +9,7 @@
 .header__lang-link:hover {
   box-shadow: 0 1px 0 0 white;
 }
-@media (max-width: 319px) {
+@media (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 24px;
