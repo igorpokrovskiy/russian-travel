@@ -8,14 +8,14 @@
 </head>
 <body class="page">
   <header class="header">
-   <a href="#" class="header__logo" title="Россия">
-      <img src="./images/logo.svg" alt="Логотип"></a>
+   <a href="#" title="Россия">
+      <img class="header__logo" src="./images/logo.svg" alt="Логотип"></a>
     <ul class="header__lang-list">
       <li class="header__lang-item">
-        <a href="#" class="header__lang-link" title="Русская версия">Ru</a>
+        <a href="#" class="header__lang-link header__lang-link_active" title="Русская версия">Ru</a>
       </li>
       <li class="header__lang-item">
-        <a href="#" class="header__lang-link" title="English version">En</a>
+        <a href="#" class="header__lang-link header__lang-link_active" title="English version">En</a>
       </li>
     </ul>
   </header>
@@ -49,7 +49,7 @@
         </li>
       </ul>
     </section>
-    <div class="photo-grid">  
+    <section class="photo-grid">  
       <img class="photo-grid__item"
            alt="Вид из окна вагона на море"
            src="images/photo-grid-item1.jpg">
@@ -86,9 +86,9 @@
       <img class="photo-grid__item"
            alt="Горная местность в тумане"
          src="images/photo-grid-item12.jpg">
-    </div>
+    </section>
     <section class="places">
-      <div class="place">
+      <article class="place">
       <h2 class="place__title">Куршская коса</h2>
       <div class="place__website">
         <p class="place__url-heading">URL</p>
@@ -108,8 +108,8 @@
           прохладного моря.
         </p>
       </div>
-    </div>
-    <div class="place">
+    </article>
+    <article class="place">
       <h3 class="place__title">Кольский</h3>
       <div class="place__website">
         <p class="place__url-heading">URL</p>
@@ -129,8 +129,8 @@
           Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
         </p>
       </div>
-    </div>
-    <div class="place">
+    </article>
+    <article class="place">
       <h3 class="place__title">Алтай</h3>
       <div class="place__website">
         <p class="place__url-heading">URL</p>
@@ -152,8 +152,8 @@
           И знаменитые манулы&nbsp;&mdash; тоже обитатели Алтайского края.
         </p>
       </div>
-    </div>
-    <div class="place">
+    </article>
+    <article class="place">
       <h3 class="place__title">Зимний Байкал</h3>
       <div class="place__website">
         <p class="place__url-heading">URL</p>
@@ -172,8 +172,8 @@
           В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
         </p>
       </div>
-    </div>
-    <div class="place">
+    </article>
+    <article class="place">
       <h3 class="place__title">Карелия</h3>
       <div class="place__website">
         <p class="place__url-heading">URL</p>
@@ -192,7 +192,7 @@
           хозяин.
         </p>
       </div>
-    </div>
+    </article>
   </section>
     <section class="cover">     
       <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">

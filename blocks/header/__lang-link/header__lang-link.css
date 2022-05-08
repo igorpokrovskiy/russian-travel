@@ -7,8 +7,9 @@
   transition: linear .2s;
 }
 .header__lang-link:hover {
-  box-shadow: 0 1px 0 0 white;
+  opacity: 80%;
 }
+
 @media (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
