@@ -15,11 +15,17 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26.08px;
     margin: 0 auto 25px;
     padding: 0 16px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .place__paragraph {
+    padding: 0;
   }
 }
